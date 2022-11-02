@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct  5 11:28:15 2022
+
+@author: Dan Chaib
+"""
 # Additional parts added:
 # - Protect self.x and self.y
 # - Implement property attribute for these, with appropriate get and set\
@@ -49,7 +55,3 @@ matplotlib.pyplot.show()
 for agents_row_a in agents:
     for agents_row_b in agents:
         distance = distance_between(agents_row_a, agents_row_b) 
-<<<<<<< HEAD
-        
-=======
->>>>>>> a6696f2a5ede0eaddc0c196d77239414bc21e159

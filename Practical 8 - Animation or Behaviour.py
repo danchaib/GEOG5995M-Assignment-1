@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct  5 11:28:15 2022
+
+@author: Dan Chaib
+"""
 # Additional parts added:
 # - Make nibblers change behaviour based on their store. 
 # - This was done in the form of agents with a store of >= 50 moving length 5\
@@ -73,21 +79,13 @@ def update(frame_number):
         agents[i].eat()
         agents[i].share_with_neighbours(neighbourhood) 
         agents[i].drop()
-<<<<<<< HEAD
         agents[i].breed_sheep(neighbourhood, agents, wolves, environment)
-=======
-        # agents[i].breed_sheep(neighbourhood, agents)
->>>>>>> a6696f2a5ede0eaddc0c196d77239414bc21e159
         agents[i].__str__()
         
     for i in range(num_of_wolves):
         
         wolves[i].move()
-<<<<<<< HEAD
         wolves[i].kill_sheep(neighbourhood, agents, wolves, environment)
-=======
-        # wolves[i].kill_sheep(neighbourhood, agents, wolves)
->>>>>>> a6696f2a5ede0eaddc0c196d77239414bc21e159
         wolves[i].__str__()
 
     # Stopping Condition - Random

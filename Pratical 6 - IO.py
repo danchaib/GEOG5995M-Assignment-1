@@ -1,5 +1,9 @@
-<<<<<<< HEAD
-=======
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct  5 11:28:15 2022
+
+@author: Dan Chaib
+"""
 # Additional parts added:
 # - Write out the environment as file at the end
 # - Override __str__(self) in the agents to display information about location\
@@ -8,7 +12,6 @@
 # negative value
 # - Dump stores if store of agent is > 100
 
->>>>>>> a6696f2a5ede0eaddc0c196d77239414bc21e159
 import random
 import operator
 import matplotlib.pyplot
